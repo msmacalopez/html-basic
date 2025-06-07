@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser tab</title>
+  </head>
+  <body>
+    <h2>About Me</h2>
+    <!-- heading -->
+    <h1>This is my H1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h5>h5</h5>
+    <h6>h6</h6>
+
+    <!-- paragraph default 16px-->
+    <p>Paragraph</p>
+    <!-- division no margin on the word -->
+    <div>No gap between div1</div>
+    <div>division2</div>
+    <div>division2</div>
+    <div>division2</div>
+    <span>im span 1</span>
+    <span>im span 1</span>
+    <span>im span 1</span>
+    <span>im span 1</span>
+
+    <!-- nested elements -->
+    <div>
+      <h1>About Me</h1>
+      <hr />
+      <p>Inside PARAGRAPH only text, not nest anything!!!</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, aliquam
+        rem? Laboriosam optio, dolorem quae officiis repellendus deleniti dicta
+        iusto nisi in eum culpa rem eaque natus magnam esse modi?
+      </p>
+      <div>You CAN put a div inside a DIV</div>
+    </div>
+    <!-- LINKS -->
+    <div>
+      <div>
+        <a href="#">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="form.html"> Form</a>
+        <a href="http://www.google.com" target="_blank">Google</a>
+      </div>
+      <div>
+        <!-- image only -->
+        <img src="./assets/image1.jpg" alt="BLABLABLA" width="80px" />
+
+        <span>I am a span</span>
+
+        <!-- image with link  -->
+        <a href="https://www.istockphoto.com/photos/flores" target="_blank">
+          <img
+            src="https://www.hocalwire.com/h-upload/uid/UrqcwKUWdSIBFwKspwg7hiPlTyX5TAoB7033284.jpg"
+            width="80px"
+            alt="Domain"
+          />
+        </a>
+
+        <!-- text with link  -->
+        <a href="https://www.istockphoto.com/photos/flores" target="_blank"
+          >Text or Image here</a
+        >
+        <p>I am a paragraph</p>
+      </div>
+      <!-- DATA MANAGEMENT -->
+      <!-- List -->
+      <div>
+        <!-- Order List -->
+        <h4>Learning List:</h4>
+        <!-- options: 1 (default),a,A,i,I -->
+        <ol type="A">
+          <li>CSS</li>
+          <ol type="i">
+            <li>Flex Box</li>
+            <li>Grid System</li>
+          </ol>
+          <li>maca</li>
+          <li></li>
+          <li>HTML</li>
+          <li>Javascript</li>
+        </ol>
+        <!-- Unorder List -->
+        <h4>Programming Languages</h4>
+        <!-- options: disc (default), circle, square -->
+        <ul type="square">
+          <li>C#</li>
+          <li>Python</li>
+          <li>Java</li>
+        </ul>
+        <!-- Nest Lists -->
+        <h4>Nest Lists</h4>
+        <!-- Table -->
+        <h4>Table</h4>
+        <table border="1">
+          <!-- head part -->
+          <thead>
+            <th>Nr</th>
+            <th>Name</th>
+            <th>Lastname</th>
+            <th>Phone</th>
+            <th>Email</th>
+          </thead>
+          <!-- Body part -->
+          <tbody>
+            <tr>
+              <td>1.</td>
+              <td>Maca</td>
+              <td>Lopez</td>
+              <td>042222222</td>
+              <td>maca@my.com</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Josh</td>
+              <td>Smith</td>
+              <td>044444444</td>
+              <td>joshua@m.com</td>
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td colspan="2">Sam</td>
+              <!-- <td>Brand</td> -->
+              <td>045555555</td>
+              <td>brand@my.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- Multimedia -->
+    <div>
+      <!-- images -->
+      <br />
+      <h4>Images</h4>
+      <img
+        src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        width="200px"
+        alt="Nature"
+      />
+      <!-- video -->
+      <h4>Video</h4>
+      <video controls autoplay muted loop width="400px">
+        <source src="./assets/video1.mp4" type="video/mp4" />
+      </video>
+      <!-- audio  -->
+      <h4>Audios</h4>
+      <audio controls autoplay src="./assets/audio1.m4a" muted></audio>
+      <!-- in case the format is not supported -->
+      <audio controls autoplay muted>
+        <source src="./assets/audio1.m4a" type="audio/m4a" />
+      </audio>
+    </div>
+    <div>
+      <!-- Link and button  -->
+      <a href="form.html"><button>Register</button></a>
+    </div>
+  </body>
+  <footer>
+    <div>&copy; Copyrights all rights reserved.</div>
+  </footer>
+</html>

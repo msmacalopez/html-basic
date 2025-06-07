@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="/">Home</a>
+    <h1>User Registration</h1>
+    <hr />
+    <!-- FORM BODY  -->
+    <form action="#" method="get" enctype="multipart/form-data">
+      <!-- http://127.0.0.1:5500/form.html?username=fdsfds&email=dfdfdfdf%40gg.com&phone=22222&password=222222&description=# -->
+      <!-- http://127.0.0.1:5500/form.html?username=s8089674%40live.vu.edu.au&email=msmacalopez%40gmail.com&phone=0426611400&password=wsww&description=# -->
+
+      <!-- Inline elements  -->
+      <!-- types of input  -->
+      <p>
+        <label>Username:* </label>
+        <input name="username" type="text" required />
+      </p>
+      <p>
+        <label>Email:* </label>
+        <input name="email" type="email" required />
+      </p>
+      <p>
+        <label>Phone:* </label>
+        <input name="phone" type="number" required />
+      </p>
+      <p>
+        <label>Password:* </label>
+        <input name="password" type="password" required />
+      </p>
+      <p>
+        <label>LinkedIn: </label>
+        <input type="url" />
+      </p>
+      <p>
+        <label>DOB: </label>
+        <input type="date" />
+      </p>
+      <p>
+        <label>Description: </label>
+        <br />
+        <textarea name="description" id="" cols="30" rows="5"></textarea>
+      </p>
+      <p>
+        <label>Upload Resume: </label>
+        <input type="file" multiple />
+      </p>
+      <!-- radio button  -->
+      <p>
+        <label for="">Gender: </label>
+        <input name="gender" type="radio" />
+        <label for="">Male</label>
+        <input name="gender" type="radio" />
+        <label for="">Female</label>
+        <input name="gender" type="radio" />
+        <label for="">Prefer not to say</label>
+      </p>
+      <!-- checkbox -->
+      <p>
+        <label for="">What do you want to learn?</label>
+        <br />
+        <input type="checkbox" /><label for="">HTML</label><br />
+        <input type="checkbox" /><label for="">CSS</label><br />
+        <input type="checkbox" /><label for="">Javascript</label><br />
+      </p>
+      <hr />
+      <p>
+        <input type="checkbox" /><label for=""
+          >I accept terms and conditions.</label
+        >
+      </p>
+      <!-- dropdown select -->
+      <p>
+        <label for="">Fruit List: </label><br />
+        <select name="" id="" multiple>
+          <option value="">--select--</option>
+          <option value="">Orange</option>
+          <option value="">Apple</option>
+          <option value="">Banana</option>
+          <option value="">Mango</option>
+        </select>
+        <br /><br />
+        <label for="">Fruit adn Veggies: </label><br />
+        <select name="" id="">
+          <optgroup label="fruits">
+            <option value="">--select--</option>
+            <option value="">Orange</option>
+            <option value="">Apple</option>
+          </optgroup>
+          <optgroup label="veggies">
+            <option value="">Lettuce</option>
+            <option value="">Celery</option>
+          </optgroup>
+        </select>
+      </p>
+      <!-- datalist -->
+      <p>
+        <label for="">DataList of Fruit and Veggies: </label>
+        <input type="text" list="linked" />
+        <datalist id="linked">
+          <option value="orange">orange</option>
+          <option value="apple">Apple</option>
+          <option value="lettuce">Lettuce</option>
+          <option value="celery">Celery</option>
+        </datalist>
+      </p>
+      <p>
+        <button>Submit</button>
+      </p>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </form>
+  </body>
+  <footer>
+    <div>&copy; Copyrights all rights reserved.</div>
+  </footer>
+</html>
