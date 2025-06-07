@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="index.html">Back to Index</a>
+    <h1>Register Now</h1>
+    <div>
+      <form action="" method="" enctype="">
+        <p>
+          <label for="">Name: </label>
+          <input
+            type="text"
+            placeholder="Your Name Here"
+            name="username"
+            required
+            minlength="10"
+          />
+          <input
+            type="tel"
+            placeholder="Phone number"
+            name="phone"
+            required
+            min="0400000000"
+            max="0499999999"
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            required
+            minlength="7"
+            maxlength="15"
+          />
+        </p>
+        <p>
+          <!-- You can click on the name: id-for  -->
+          <input type="radio" name="gender" id="m" value="male" />
+          <label for="m">Male</label>
+
+          <input type="radio" name="gender" id="" value="female" />
+          <label for="">Female</label>
+
+          <input type="radio" name="gender" id="" value="NA" />
+          <label for="">N/A</label>
+        </p>
+        <p>
+          <!-- select needs name  -->
+          <select name="g" id="">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="na">N/A</option>
+          </select>
+        </p>
+        <p>
+          <input type="submit" />
+          <button>Submit</button>
+        </p>
+        <p>
+          <input type="color">
+            <color></color>
+          </input>
+          <input type="range" name="" id="" min="1" max="30" value="2">
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
